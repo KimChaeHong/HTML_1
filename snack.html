@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love your snack</title>
+</head>
+<body>
+<form action="./result.html" method="get">
+    <fieldset>
+    <legend>당신의 최애 과자는?</legend>
+    <div>
+        ID:
+        <input type="text" placeholder="id" >
+    </div>
+    
+    <div>
+        PWD:
+        <input type="password" placeholder="password">
+    </div>
+    
+    <div>
+        Age:
+        <input type="number" placeholder="age">
+    </div>
+
+    <div>
+        좋아하는 과자를 선택하세요.
+    </div>
+
+    <div>
+        <input type="radio" name="snack_2" value="cookie"> 
+        <label for="snack_2">cookie</label> 
+        <input type="radio" name="snack_2" value="chips"> 
+        <label for="snack_2">chips</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="snack_3_1" value="포카칩">
+        <label for="snack_3">포카칩</label>
+        <input type="checkbox" name="snack_3_2" value="포테토칩">
+        <label for="snack_3">포테토칩</label>
+        <input type="checkbox" name="snack_3_3" value="초코파이">
+        <label for="snack_3">초코파이</label>
+        <input type="checkbox" name="snack_3_4" value="오예스">
+        <label for="snack_3">오예스</label>
+    </div>
+    
+
+    <label for="snack_1">이 과자를 좋아하는 이유는?</label>
+    <div>
+        <textarea name = "snack_1" rows="10" cols="30" placeholder="짭짤해서, 달콤해서 등등"></textarea>
+    </div>
+
+    <div>최애과자에게 매기는 점수
+        <select>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select>
+    </div>
+    
+
+    <div>
+        <button type="submit">제출 </button>
+    </div>
+    </fieldset>
+</form>
+</body>
+</html>
